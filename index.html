@@ -254,6 +254,13 @@ section {
         </form>
     </section>
 
-    <script src="script.js"></script>
+    <script src="script.js"> </script>
+    <script type="module">
+    import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
+    Chatbot.init({
+        chatflowid: "6b6eb1fc-3825-450a-abfd-b5a0569a5d45",
+        apiHost: "https://cloud.flowiseai.com",
+    })
+</script>
 </body>
 </html>
